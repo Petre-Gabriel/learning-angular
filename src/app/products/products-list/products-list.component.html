@@ -1,0 +1,4 @@
+<app-title [small]="true" [biggerSpacing]="true">Our products</app-title>
+<div class="grid grid-cols-3 auto-rows-auto gap-y-16">
+    <app-product-box *ngFor="let product of products" [productData]="product"></app-product-box>
+</div>

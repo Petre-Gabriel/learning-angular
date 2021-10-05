@@ -1,0 +1,15 @@
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.product-image {
+    width: 100%;
+
+    min-height: 150px;
+    max-height: 300px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
